@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title> Written whiskey information from Model</title>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 whiskyId is confirmed: <td>{{whiskey.wId}}</td>
@@ -12,6 +13,15 @@ whiskyName is confirmed: <td> {{whiskey.wName}}</td>
 <br>
 whiskyLocation is confirmed: <td>{{whiskey.wLocation}}</td>
 
+<br>
+<br>
+whiskyId: <p th:text="'id: ' + ${whiskey.wId}" />
+<br>
+<br>
+whiskyName: <p th:text="'name: ' + ${whiskey.wName}" />
+<br>
+<br>
+whiskyLocation: <p th:text="'location: ' + ${whiskey.wLocation}" />
+
 </body>
 </html>
-

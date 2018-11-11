@@ -8,7 +8,7 @@ public class whiskey {
     public whiskey() {
         this.wId = wId;
         this.wName= wName;
-       this.wLocation = wLocation;
+        this.wLocation = wLocation;
 
     }
 //- Getters -------------------------------
@@ -18,7 +18,7 @@ public class whiskey {
     public String getWName() {
         return wName;
     }
-   public String getWLocation() {
+    public String getWLocation() {
        return wLocation;
     }
 //-Setters------------------------------------
@@ -31,8 +31,4 @@ public class whiskey {
     public void setWLocation(String wLocation){
         this.wLocation=wLocation;
     }
-
-
-
-
 }
