@@ -1,4 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Segoe UI", helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #CFD8DC;
+}
+
 h1 {
-color: orange;
-text-align: center;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #757575;
+    text-align: center;
+}
+
+.top-header {
+    background-color: #455A64;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    width: 20%;
+    height: 200px;
+    background-color: #607D8B;
+    border-radius: 5px;
 }
